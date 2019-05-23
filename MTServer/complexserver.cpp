@@ -1,6 +1,6 @@
 #include "complexserver.h"
 
-ComplexServer::ComplexServer()
+ComplexServer::ComplexServer(): QTcpServer(parent)
 {
-
+    ComplexServer(QObject *parent = 0);
 }
